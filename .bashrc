@@ -1,3 +1,5 @@
+alias l='ls -CF'
+
 alias tldr='docker run --rm -it -v ~/.tldr/:/root/.tldr/ nutellinoit/tldr'
 
 # Source: https://github.com/microsoft/vscode-dev-containers/blob/main/script-library/common-debian.sh
