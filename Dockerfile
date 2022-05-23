@@ -3,7 +3,7 @@
 ###
 # Install additional OS packages
 ENV DEBIAN_FRONTEND noninteractive
-RUN apt-get update && apt-get -y install --no-install-recommends <packages>
+RUN apt-get update && apt-get install -y --no-install-recommends <packages>
 
 
 ###
